@@ -1,0 +1,43 @@
+Arguments: 
+  /home/sharmi/.nvm/versions/node/v19.4.0/bin/node /home/sharmi/.nvm/versions/node/v19.4.0/bin/yarn add -D prisma prisma-erd-generator ts-node typescript @types/nodes
+
+PATH: 
+  /home/sharmi/.nvm/versions/node/v19.4.0/bin:/home/sharmi/bin:/usr/local/bin:/home/sharmi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fnodes: Not found
+      at params.callback [as _callback] (/home/sharmi/.nvm/versions/node/v19.4.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/sharmi/.nvm/versions/node/v19.4.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/sharmi/.nvm/versions/node/v19.4.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/sharmi/.nvm/versions/node/v19.4.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "scrapper-schema",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:shaam-codes/scrapper-schema.git",
+    "author": "Sharmilan <sampikaipakan@openprovider.nl>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
